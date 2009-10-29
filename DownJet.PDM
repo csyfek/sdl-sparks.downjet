@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\zj1\downjet\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\zj1\downjet\DownJet.exe=Yes
+C:\PWIN98\SYSTEM\MSVBVM60.DLL=Yes
+C:\PWIN98\SYSTEM\OLEAUT32.DLL=Yes
+C:\PWIN98\SYSTEM\OLEPRO32.DLL=Yes
+C:\PWIN98\SYSTEM\ASYCFILT.DLL=Yes
+C:\PWIN98\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\PWIN98\SYSTEM\MSCOMCTL.OCX=Yes
+C:\PWIN98\SYSTEM\TABCTL32.OCX=Yes
+C:\PWIN98\SYSTEM\MSWINSCK.OCX=Yes
+C:\PWIN98\SYSTEM\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\PWIN98\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\zj1\downjet\DownJet.exe=$(AppPath)
+C:\PWIN98\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\PWIN98\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\PWIN98\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\PWIN98\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\PWIN98\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\PWIN98\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\PWIN98\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\PWIN98\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\PWIN98\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\PWIN98\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\zj1\downjet\DownJet.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=DownJet
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=DownJet
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|DownJet]
+Icon1=DownJet.exe
+Title1=DownJet
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\zj1\downjet\Package
+ProjectFolder=D:\zj1\downjet
+ServerSideCab=
+File1=D:\zj1\downjet\Package\setup.exe
+File2=D:\zj1\downjet\Package\Setup.Lst
+File3=D:\zj1\downjet\Package\DownJet.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
